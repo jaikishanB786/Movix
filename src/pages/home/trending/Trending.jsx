@@ -7,7 +7,7 @@ import SwitchTab from '../../../components/switchTabs/SwitchTab'
 const Trending = () => {
 
   const onTabChange = (tab) => {
-    
+
   }
 
   return (
@@ -23,3 +23,5 @@ const Trending = () => {
 }
 
 export default Trending
+
+
