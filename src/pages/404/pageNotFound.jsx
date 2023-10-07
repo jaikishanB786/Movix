@@ -1,11 +1,19 @@
-import React from 'react'
+/* eslint-disable no-unused-vars */
+import React from "react";
 
-import "./style.scss"
+import "./style.scss";
 
-const pageNotFound = () => {
-  return (
-    <div>pageNotFound</div>
-  )
-}
+import ContentWrapper from "../../components/contentWrapper/ContentWrapper";
 
-export default pageNotFound
+const PageNotFound = () => {
+    return (
+        <div className="pageNotFound">
+            <ContentWrapper>
+                <span className="bigText">404</span>
+                <span className="smallText">Page not found!</span>
+            </ContentWrapper>
+        </div>
+    );
+};
+
+export default PageNotFound;
